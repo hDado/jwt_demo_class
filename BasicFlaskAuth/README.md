@@ -50,7 +50,15 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ### Setup Auth0
 
-1. Create a new Auth0 Account
-2. Select a unique tenant domain
-3. Create a new, single page web application
-4. Create a new API
+1. Create a new Auth0 Account (done)
+2. Select a unique tenant domain (done)
+3. Create a new, single page web application (done)
+4. Create a new API (done)
+### Permission
+permission has been added to the project for user, using Auth0 as lesson 4, the code has been tested after generating JWT token in browser and using it in postman for testing. 
+
+## NOTE Auth0:
+Auth0 Authorize Link
+The complete documentation for the authorization code flow can be found in Auth0's Documentation. It may help to fill in the url in the textbox below before copying it into your browser:
+
+https://{{YOUR_DOMAIN}}/authorize?audience={{API_IDENTIFIER}}&response_type=token&client_id={{YOUR_CLIENT_ID}}&redirect_uri={{YOUR_CALLBACK_URI}}
